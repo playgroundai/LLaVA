@@ -13,10 +13,9 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License",
 ]
 dependencies = [
-    "accelerate", "einops", "fastapi", "gradio==3.23", "markdown2[all]", "numpy",
+    "accelerate", "einops", "gradio==3.23", "markdown2[all]", "numpy==1.24.2",
     "requests", "sentencepiece", "tokenizers==0.12.1",
-    "torch", "torchvision", "uvicorn", "wandb",
-    "shortuuid",
+    "torch==2.0.0", "torchvision==0.15.1", "wandb==0.15.2",
     "deepspeed==0.9.2", "peft==0.3.0",
     "transformers @ git+https://github.com/huggingface/transformers.git@cae78c46"
 ]
