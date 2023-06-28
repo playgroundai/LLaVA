@@ -16,7 +16,7 @@ dependencies = [
     "accelerate", "einops", "gradio==3.23", "markdown2[all]", "numpy==1.24.2",
     "requests", "sentencepiece", "tokenizers==0.12.1",
     "torch==2.0.0", "torchvision==0.15.1", "wandb==0.15.2",
-    "transformers"
+    "transformers", "tokenizers==0.13.3"
 ]
 
 [project.urls]
